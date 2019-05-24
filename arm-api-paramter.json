@@ -1,0 +1,18 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+	"parameters": {
+        "api_name": {
+            "value": "nagprojwork"
+        },	   
+	    "applan_name": {
+            "value": "nagprojworkplan"
+        },	
+		"component_appinsight": {
+            "value": "nagplaninsight"
+        },	
+	   	"location": {
+            "value": "West US"
+        }
+ }
+}
